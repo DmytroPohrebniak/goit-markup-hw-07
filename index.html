@@ -324,110 +324,110 @@
     </main>
     <!--Футер-->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-adress">
-                <a lang="en" href="./index.html" class="logo-footer"><span class="logo-type">Web</span>Studio</a>
-                <address class="address">
-                    <ul class="address-list list">
-                        <li class="item"><a href="https://goo.gl/maps/7h8aDrKKwfjGKreX9" target="_blank" rel="noopener noreferrer"
-                                class="address-nav">г. Киев, пр-т
+        <div class="footer__container">
+            <div class="footer-address">
+                <a lang="en" href="./index.html" class="footer-address__logo"><span class="footer-address__logo--accent">Web</span>Studio</a>
+                <address>
+                    <ul class="footer-address__list list">
+                        <li class="footer-address__item"><a href="https://goo.gl/maps/7h8aDrKKwfjGKreX9" target="_blank" rel="noopener noreferrer"
+                                class="footer-address__nav">г. Киев, пр-т
                                 Леси Украинки, 26</a> </li>
-                        <li class="item"><a href="mailto:info@devstudio.com" class="contact-footer mail">info@example.com</a> </li>
-                        <li class="item"><a href="tel:+380961111111" class="contact-footer">+38 096 111 11 11</a> </li>
+                        <li class="footer-address__item"><a href="mailto:info@devstudio.com" class="footer-address__contact">info@example.com</a> </li>
+                        <li class="footer-address__item"><a href="tel:+380961111111" class="footer-address__contact">+38 096 111 11 11</a> </li>
                     </ul>
                 </address>
             </div>
-            <div class="social-footer">
-                <h2 class="title">присоединяйтесь</h2>
-                <ul class="link-footer list">
-                    <li class="link-item">
-                        <a class="link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                            <svg class="link-icon">
+            <div class="footer-social">
+                <h2 class="footer-social__title">присоединяйтесь</h2>
+                <ul class="footer-social__list list">
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer-social__icon">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link-item">
-                        <a class="link" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-                            <svg class="link-icon">
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer-social__icon">
                                 <use href="./images/sprite.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link-item">
-                        <a class="link" href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
-                            <svg class="link-icon">
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer-social__icon">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="link-item">
-                        <a class="link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-                            <svg class="link-icon">
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer-social__icon">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="distribution">
-                <h2 class="distribution-title">Подпишитесь на рассылку</h2>
-                <input type="email" placeholder="E-mail" class="distribution-input">
-                <button type="submit" class="distribution-button">Подписаться
-                    <svg class="distribution-icon">
+            <div class="footer-distribution">
+                <h2 class="footer-distribution__title">Подпишитесь на рассылку</h2>
+                <input type="email" placeholder="E-mail" class="footer-distribution__input">
+                <button type="submit" class="footer-distribution__button">Подписаться
+                    <svg class="footer-distribution__icon">
                         <use href="./images/sprite.svg#icon-send"></use>
                     </svg>
                 </button>
             </div>
         </div>
     </footer>
-
-    <div class="backdrop is-hidden" data-modal>
+    <!--Модальное окно-->
+    <div class="backdrop backdrop--is-hidden" data-modal>
         <div class="modal">
-            <button class="modal-close" data-modal-close>
-                <svg class="close-icon">
+            <button class="modal__button" data-modal-close>
+                <svg class="modal__icon">
                     <use href="./images/sprite.svg#icon-close"></use>
                 </svg>
             </button>
             <form class="user-form" autocomplete="off">
-                <h2 class="title">Оставьте свои данные, мы вам перезвоним</h2>
-                <label class="user-field">
-                    <span class="user-label">Имя</span>
-                    <input type="text" name="first-name" class="user-input">
-                    <svg class="form-icon">
+                <h2 class="user-form__title">Оставьте свои данные, мы вам перезвоним</h2>
+                <label class="user-form__field">
+                    <span class="user-form__label">Имя</span>
+                    <input type="text" name="first-name" class="user-form__input">
+                    <svg class="user-form__icon">
                         <use href="./images/sprite.svg#icon-person"></use>
                     </svg>
                 </label>
-                <label class="user-field">
-                    <span class="user-label">Телефон</span>
-                    <input type="tel" name="tel" class="user-input">
-                    <svg class="form-icon">
+                <label class="user-form__field">
+                    <span class="user-form__label">Телефон</span>
+                    <input type="tel" name="tel" class="user-form__input">
+                    <svg class="user-form__icon">
                         <use href="./images/sprite.svg#icon-phone"></use>
                     </svg>
                 </label>
-                <label class="user-field">
-                    <span class="user-label">Почта</span>
-                    <input type="email" name="email" class="user-input">
-                    <svg class="form-icon">
+                <label class="user-form__field">
+                    <span class="user-form__label">Почта</span>
+                    <input type="email" name="email" class="user-form__input">
+                    <svg class="user-form__icon">
                         <use href="./images/sprite.svg#icon-email"></use>
                     </svg>
                 </label>
-                <label class="user-comment">
-                    <span class="comment">Комментарий</span>
-                    <textarea name="comment" rows="10" placeholder="Введите текст"></textarea>
+                <label class="user-form__comment">
+                    <span class="user-form__comment-lable">Комментарий</span>
+                    <textarea name="comment" rows="10" placeholder="Введите текст" class="user-form__textarea"></textarea>
                 </label>
-                <label class="user-argeement">
-                    <div class="checkbox-container">
-                        <input type="checkbox" name="agreement" class="agreement-checkbox">
-                        <svg class="checkbox-icon">
+                <label class="user-form__argeement">
+                    <div class="checkbox__container">
+                        <input type="checkbox" name="agreement" class="checkbox__input">
+                        <svg class="checkbox__icon">
                             <use href="./images/sprite.svg#icon-check"></use>
                         </svg>
-                        <span class="checkbox-unchecked"></span>
+                        <span class="checkbox__unchecked"></span>
                     </div>
-                    <span class="text-agreement">Соглашаюсь с рассылкой и принимаю <a href="" class="agreement-link">Условия договора</a></span>
+                    <span class="user-form__text-agreement">Соглашаюсь с рассылкой и принимаю <a href="" class="user-form__agreement-link">Условия договора</a></span>
                 </label>
-                <div class="form-button">
-                    <button type="submit" class="user-submit">Отправить</button>
+                <div class="user-form__button">
+                    <button type="submit" class="user-form__submit">Отправить</button>
                 </div>
             </form>
         </div>
